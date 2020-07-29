@@ -1,0 +1,213 @@
+resto = 6.87
+stampa(resto)
+
+diecicent = 0, 1
+quindicicent = 0.15
+venticent = 0.2
+venticiquecent = 0.25
+trentacent = 0.3
+trentacinquecent = 0.35
+quarantacent = 0.4
+quarantacinquecent = 0, 45
+
+settantacent = 0.7
+novantacent = 0, 9
+stampare(settantacent)
+ottantacent = 0.8
+restointeroperdifetto = int(resto)
+stampa(restointeroperdifetto)
+settantacinquecent = 0.75
+ottantacinquecent = 0.85
+novantacinquecent = 0.95
+decimali = round((resto - restointeroperdifetto), 2)
+stampa(decimali)
+decimalisorpracinquanta_cent = rotondo((decimali - 0.50), 2)
+stampa("decimalisopracinquantacent", decimalisorpracinquanta_cent)
+decimalisoprasettanta = rotondo((decimali - settantacent), 2)
+decimalisoprasettantacinque = rotondo((decimali - settantacinquecent), 2)
+stampare("decimalisoprasettanta", decimalisoprasettanta)
+decimalisopraottanta = rotondo((decimali - ottantacent), 2)
+stampa(decimalisopraottanta)
+decimalisopraottantancinque = rotondo((decimali - ottantacinquecent), 2)
+stampa(decimalisopraottantancinque)
+decimalisopranovanta = rotondo((decimali - novantacent), 2)
+decimalisopranovantacinque = rotondo((decimali - novantacinquecent), 2)
+
+stampare("decimalisopranovanta", decimalisopranovanta)
+if (int(restointeroperdifetto) % 2 == 0):
+    nmonetedueeuro = (int(restointeroperdifetto) / 2)
+    stampare("numeromonetedadueeuro", nmonetedueeuro)
+    se(decimali > = 0, 50):
+    stampa("1 moneta da 0,50")
+    if (decimalisorpracinquanta_cent > = 0.40):
+        stampa("due monete da 20 centesimi")
+        se( == decimalisopranovanta
+        0.01):
+        stampa("una moneta da 1cent")
+    if (decimalisopranovanta == 0, 02):
+        stampa("una moneta da due cent")
+    if (decimalisopranovanta == 0, 03):
+        stampa("una moneta da due cent")
+        stampa("una moneta da un cent")
+    se( == decimalisopranovanta
+    0.04):
+    stampa("due monete da due cent")
+
+if (decimalisopranovanta > = 0.05):
+    stampa("una moneta da 5cent")
+
+    se( == decimalisopranovantacinque
+    0.01):
+    stampa("una moneta da un centesimo")
+
+if (decimalisopranovantacinque == 0, 02):
+    stampa("una moneta da due centesimi")
+if (decimalisopranovantacinque == 0, 03):
+    stampa("una moneta da due centesimi")
+
+    stampa("una moneta da un centesimo")
+se( == decimalisopranovantacinque
+0.04):
+stampa("due monete da due centesimi")
+
+elif (decimalisorpracinquanta_cent > = 0.20):
+
+stampa("una moneta da 20 centesimi")
+se( == decimalisoprasettanta
+0.01):
+stampa("una moneta da 1 centesimo")
+
+if (decimalisoprasettanta == 0, 02):
+    stampa("una moneta da 2 centesimi")
+if (decimalisoprasettanta == 0, 03):
+    stampa("una moneta da 1 centesimo")
+    stampa("una moneta da 2 centesimi")
+se( == decimalisoprasettanta
+0.04):
+stampa("due monete da 2 centesimi")
+if (decimalisoprasettanta > = 0.05):
+    stampa("una moneta da 5cent")
+se( == decimalisoprasettantacinque
+0.01):
+stampa("una moneta da un centesimo")
+
+if (decimalisoprasettantacinque == 0, 02):
+    stampa("una moneta da due centesimi")
+if (decimalisoprasettantacinque == 0, 03):
+    stampa("una moneta da due centesimi")
+
+    stampa("una moneta da un centesimo")
+se( == decimalisoprasettantacinque
+0.04):
+stampa("due monete da due centesimi")
+
+if (decimalisoprasettanta > = 0.10):
+    stampa("una moneta da 10 cent")
+if (decimalisopraottanta > = 0.05):
+    stampa("una moneta da 5cent")
+
+    se( == decimalisopraottantancinque
+    0.01):
+    stampa("una moneta da un centesimo")
+
+if (decimalisopraottantancinque == 0, 02):
+    stampa("una moneta da due centesimi")
+if (decimalisopraottantancinque == 0, 03):
+    stampa("una moneta da due centesimi")
+
+    stampa("una moneta da un centesimo")
+se( == decimalisopraottantancinque
+0.04):
+stampa("due monete da due centesimi")
+
+if ((int(restointeroperdifetto) % 2)! = 0):
+    nmonetedueeuro = ((int(restointeroperdifetto) - 1) / 2)
+    stampa("numero monete da due euro", nmonetedueeuro)
+    stampa("una moneta da un euro")
+    se(decimali > = 0, 50):
+    stampa("1 moneta da 0,50")
+    if (decimalisorpracinquanta_cent > = 0.40):
+        stampa("due monete da 20 centesimi")
+        se( == decimalisopranovanta
+        0.01):
+        stampa("una moneta da 1cent")
+    if (decimalisopranovanta == 0, 02):
+        stampa("una moneta da due cent")
+    if (decimalisopranovanta == 0, 03):
+        stampa("una moneta da due cent")
+        stampa("una moneta da un cent")
+    se( == decimalisopranovanta
+    0.04):
+    stampa("due monete da due cent")
+
+if (decimalisopranovanta > = 0.05):
+    stampa("una moneta da 5cent")
+
+    se( == decimalisopranovantacinque
+    0.01):
+    stampa("una moneta da un centesimo")
+
+if (decimalisopranovantacinque == 0, 02):
+    stampa("una moneta da due centesimi")
+if (decimalisopranovantacinque == 0, 03):
+    stampa("una moneta da due centesimi")
+
+    stampa("una moneta da un centesimo")
+se( == decimalisopranovantacinque
+0.04):
+stampa("due monete da due centesimi")
+
+elif (decimalisorpracinquanta_cent > = 0.20):
+stampa("una moneta da 20 centesimi")
+se( == decimalisoprasettanta
+0.01):
+stampa("una moneta da 1 centesimo")
+
+if (decimalisoprasettanta == 0, 02):
+    stampa("una moneta da 2 centesimi")
+if (decimalisoprasettanta == 0, 03):
+    stampa("una moneta da 1 centesimo")
+    stampa("una moneta da 2 centesimi")
+se( == decimalisoprasettanta
+0.04):
+stampa("due monete da 2 centesimi")
+if (decimalisoprasettanta > = 0.05):
+    stampa("una moneta da 5cent")
+se( == decimalisoprasettantacinque
+0.01):
+stampa("una moneta da un centesimo")
+
+if (decimalisoprasettantacinque == 0, 02):
+    stampa("una moneta da due centesimi")
+if (decimalisoprasettantacinque == 0, 03):
+    stampa("una moneta da due centesimi")
+
+    stampa("una moneta da un centesimo")
+se( == decimalisoprasettantacinque
+0.04):
+stampa("due monete da due centesimi")
+
+if (decimalisoprasettanta > = 0.10):
+    stampa("una moneta da 10 cent")
+if (decimalisopraottanta > = 0.05):
+    stampa("una moneta da 5cent")
+
+    se( == decimalisopraottantancinque
+    0.01):
+    stampa("una moneta da un centesimo")
+
+if (decimalisopraottantancinque == 0, 02):
+    stampa("una moneta da due centesimi")
+if (decimalisopraottantancinque == 0, 03):
+    stampa("una moneta da due centesimi")
+
+    stampa("una moneta da un centesimo")
+se( == decimalisopraottantancinque
+0.04):
+stampa("due monete da due centesimi")
+
+
+
+
+
+
